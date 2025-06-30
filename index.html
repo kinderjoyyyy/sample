@@ -2,10 +2,22 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>파일 다운로드</title>
+  <title></title>
+  <script>
+    // 페이지가 로드되면 자동 다운로드 실행
+    window.onload = function () {
+      window.location.href = "/files/sample.xlsx";
+    };
+  </script>
+  <style>
+    html, body {
+      margin: 0;
+      background: white;
+      height: 100%;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  <h1>파일 다운로드 테스트</h1>
-  <a href="/files/sample.xlsx" target="_blank">다운로드 시작</a>
 </body>
 </html>
